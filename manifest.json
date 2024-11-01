@@ -1,10 +1,25 @@
 {
-    "manifest_version": 3,
-    "name": "Hello Extensions of the world!",
-    "description": "Base Level Extension",
-    "version": "1.0",
-    "action": {
-      "default_popup": "hello.html",
-      "default_icon": "hello_extensions.png"
+  "manifest_version": 3,
+  "name": "Banana",
+  "description": "An extension that turns all images into bananas.",
+  "version": "1.0",
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*.jpg"],
+      "matches": ["<all_urls>"]
     }
-  }
+  ],
+  "content_scripts" : [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "BananaIcon.png"
+    },
+    "background" : {
+      "service_worker": "background.js"
+    }
+}
