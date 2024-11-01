@@ -7,6 +7,9 @@
 # How to use:
  On a webpage with images, (for example just search "images" in google and click on the images tab to switch to images) click on the banana image and choose what image you want to change the icon too. Then click submit. You should see all the images change into the selected banana.
 
+ # Link to demo:
+ https://youtu.be/pm4EHcx54GQ
+
 *note: The banana extension can only change the images that are already loaded. So if you scroll down you will have to repeat the image changing process*
 
 *note: This is my first github project*
