@@ -9,3 +9,5 @@
 
 *note: The banana extension can only change the images that are already loaded. So if you scroll down you will have to repeat the image changing process*
 
+*note: This is my first github project*
+
