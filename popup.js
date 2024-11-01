@@ -1,7 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const submitButton = document.getElementById('submit');
 
-    submitButton.addEventListener('click', sendData);
+    submitButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        sendData();
+    });
 
     function sendData() {
         let params = {
