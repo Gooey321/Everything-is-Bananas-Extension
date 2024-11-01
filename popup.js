@@ -20,8 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 txt: "Hello",
                 selectedImage: selectedImage
             };
+            console.log("Sending message from popup script:", message);
             chrome.tabs.sendMessage(tabs[0].id, message, function(response) {
-                console.log("Success");
+                console.log("Message sent from popup");
             });
         }
     }

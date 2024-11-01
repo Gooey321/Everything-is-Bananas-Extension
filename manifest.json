@@ -3,7 +3,8 @@
   "name": "Banana",
   "description": "An extension that turns all images into bananas.",
   "version": "1.0",
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "activeTab"],
+  "host_permissions": ["<all_urls>"],
   "web_accessible_resources": [
     {
       "resources": ["images/*.jpg"],
