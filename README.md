@@ -11,3 +11,4 @@
 
 *note: This is my first github project*
 
+*note: Some images inside webpages do not work*
